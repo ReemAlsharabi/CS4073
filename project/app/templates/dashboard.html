@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Share Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Bike Share Dashboard</h1>
+    <div>
+        <h2>Total Bike Rentals Over Time</h2>
+        {{ plot1|safe }}
+    </div>
+    <div>
+        <h2>Bike Rentals by Season and Weather</h2>
+        {{ plot2|safe }}
+    </div>
+    <div>
+        <h2>Bike Rentals vs. Temperature</h2>
+        {{ plot3|safe }}
+    </div>
+    <br>
+    <a href="/">Go Back to Home</a>
+</body>
+</html>
